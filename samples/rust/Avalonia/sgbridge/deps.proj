@@ -1,0 +1,10 @@
+<Project>
+
+  <ItemGroup>
+      <PackageReference Include="avalonia" Version="11.0.0-preview6" />
+      <PackageReference Include="avalonia.themes.fluent" Version="11.0.0-preview6" />
+      <PackageReference Include="avalonia.desktop" Version="11.0.0-preview6" />
+  </ItemGroup>
+
+</Project>
+

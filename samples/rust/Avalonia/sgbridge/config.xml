@@ -1,0 +1,19 @@
+
+<list>
+    <type name="System.Collections.Generic.List`1" all="true"/>
+    <type name="System.Linq.Enumerable">
+        <method name="Where" />
+        <method name="ToList" />
+        <method name="Take" />
+        <method name="ToArray" />
+    </type>
+    <type prefix="Avalonia." all="true" />
+    <!-- TODO the following should not be needed here.  figure them out.  base type closing constraint. -->
+    <type name="System.ComponentModel.PropertyChangedEventArgs" >
+        <base all="true"/>
+    </type>
+    <type name="System.Collections.Specialized.NotifyCollectionChangedEventArgs" >
+        <base all="true"/>
+    </type>
+</list>
+

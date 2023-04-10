@@ -1,0 +1,34 @@
+
+<list>
+    <type name="System.Collections.Generic.List`1" all="true"/>
+    <type name="System.Func`2">
+        <generic>
+            <typearg name="Avalonia.Interactivity.RoutedEventArgs"/>
+            <typearg name="System.Object"/>
+        </generic>
+    </type>
+    <type name="System.Linq.Enumerable">
+        <method name="Where" />
+        <method name="ToList" />
+        <method name="Take" />
+        <method name="ToArray" />
+    </type>
+    <type prefix="NXUI." all="true" />
+    <type prefix="Avalonia." all="true" />
+    <type name="System.Reactive.Linq.Observable">
+        <method name="Select">
+            <generic>
+                <typearg name="Avalonia.Interactivity.RoutedEventArgs"/>
+                <typearg name="System.Object"/>
+            </generic>
+        </method>
+    </type>
+    <!-- TODO the following should not be needed here.  figure them out.  base type closing constraint. -->
+    <type name="System.ComponentModel.PropertyChangedEventArgs" >
+        <base all="true"/>
+    </type>
+    <type name="System.Collections.Specialized.NotifyCollectionChangedEventArgs" >
+        <base all="true"/>
+    </type>
+</list>
+
