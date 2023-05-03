@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAOT>True</PublishAOT>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sourcegear.bridge.nativeaot.typescript" Version="0.6.0" />
+    <PackageReference Include="questpdf" Version="2022.12.1" />
+    <PackageReference Include="skiasharp.nativeassets.linux.nodependencies" Version="2.88.3" />
+    <PackageReference Include="harfbuzzsharp.nativeassets.linux" Version="2.8.2.3" />
+  </ItemGroup>
+
+</Project>

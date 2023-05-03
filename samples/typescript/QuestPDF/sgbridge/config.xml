@@ -1,0 +1,8 @@
+
+<list>
+    <type prefix="QuestPDF." all="true" />
+    <type name="System.IO.Path" all="true" />
+    <type name="System.IO.FileInfo" all="true" />
+    <type name="System.IO.FileSystemInfo" all="true" />
+</list>
+
