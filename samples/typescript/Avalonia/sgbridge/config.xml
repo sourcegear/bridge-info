@@ -1,0 +1,25 @@
+
+<list>
+    <type name="Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime" all="true" />
+    <type name="Avalonia.Application" all="true" />
+    <type prefix="Avalonia.AppBuilder" all="true" />
+    <type name="Avalonia.Controls.TextBlock" all="true" />
+    <type name="Avalonia.Controls.Button" all="true" />
+    <type name="Avalonia.Controls.StackPanel" all="true" />
+    <type name="Avalonia.Controls.Panel" all="true" />
+    <type name="Avalonia.Controls.ContentControl" all="true" />
+    <type name="Avalonia.Controls.Window" all="true" />
+    <type prefix="Avalonia.Collections." all="true" />
+    <type prefix="Avalonia.Layout." all="true" />
+    <type name="Avalonia.Styling.Styles" all="true" />
+    <type prefix="Avalonia.Themes.Fluent." all="true" />
+
+    <!-- TODO the following should not be needed here.  figure them out.  base type closing constraint. -->
+    <type name="System.ComponentModel.PropertyChangedEventArgs" >
+        <base all="true"/>
+    </type>
+    <type name="System.Collections.Specialized.NotifyCollectionChangedEventArgs" >
+        <base all="true"/>
+    </type>
+</list>
+

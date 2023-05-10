@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAOT>True</PublishAOT>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sourcegear.bridge.nativeaot.typescript" Version="0.6.1" />
+    <PackageReference Include="avalonia" Version="11.0.0-preview7" />
+    <PackageReference Include="avalonia.themes.fluent" Version="11.0.0-preview7" />
+    <PackageReference Include="avalonia.desktop" Version="11.0.0-preview7" />
+  </ItemGroup>
+
+</Project>
